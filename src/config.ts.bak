@@ -1,17 +1,15 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://shridiptasatpati.netlify.app/", // replace this with your deployed domain
-  author: "Shridipta Satpati",
-  profile: "https://shridiptasatpati.netlify.app/",
-  // desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  desc: "An Astro blog themed blogger.",
-  // title: "AstroPaper",
-  title: "ShridiptaSatpati",
+  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  author: "Sat Naing",
+  profile: "https://satnaing.dev/",
+  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  title: "AstroPaper",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
-  postPerPage: 10,
+  postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
@@ -30,7 +28,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/ShridiptaSatpati/Portfolio-Blog",
+    href: "https://github.com/satnaing/astro-paper",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -38,25 +36,25 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: false,
+    active: true,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
-    active: false,
+    active: true,
   },
   {
     name: "LinkedIn",
-    href: "www.linkedin.com/in/shridipta-satpati",
+    href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
     name: "Mail",
-    href: "mailto:shridipta2006@gmail.com",
+    href: "mailto:yourmail@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: true,
+    active: false,
   },
   {
     name: "Twitter",
@@ -72,9 +70,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://www.youtube.com/@ShridiptaSatpati",
+    href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on YouTube`,
-    active: true,
+    active: false,
   },
   {
     name: "WhatsApp",

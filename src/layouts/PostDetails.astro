@@ -88,7 +88,7 @@ const nextPost =
     </article>
 
     <ul class="my-8">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
+      {tags.map((tag: string) => <Tag tag={slugifyStr(tag)} />)}
     </ul>
 
     <div
@@ -175,7 +175,15 @@ const nextPost =
       }
     </div>
   </main>
+      
+  <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+  <hyvor-talk-comments
+    website-id="11850"
+    page-id=""
+  ></hyvor-talk-comments>
+
   <Footer />
+  
 </Layout>
 
 <style>
